@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_gitshiva_browser_ip_1708008373484-push-trigger-input-set
+  identifier: Build_gitshiva_browser_ip_1708008373484pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_gitshiva_browser_ip_1708008373484
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
