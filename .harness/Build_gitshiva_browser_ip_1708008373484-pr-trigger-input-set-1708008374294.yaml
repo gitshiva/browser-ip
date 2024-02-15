@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_gitshiva_browser_ip_1708008373484-pr-trigger-input-set
+  identifier: Build_gitshiva_browser_ip_1708008373484prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_gitshiva_browser_ip_1708008373484
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
